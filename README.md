@@ -34,6 +34,7 @@ vishnu = {
 | 🔍 **[AI Job Finder Bot](https://github.com/vishnu0529/ai-job-finder-bot)** | Multi-board job search with AI scoring, cover letter generation, and application tracker | Gemini · Streamlit · Reed API · SQLite | [![Repo](https://img.shields.io/badge/-Repo-0ea5e9?style=flat-square)](https://github.com/vishnu0529/ai-job-finder-bot) |
 | 🏆 **[Sports AI API](https://github.com/vishnu0529/sports-ai-api-csharp)** | Sports prediction REST API: built in Python/FastAPI then rebuilt in C#/ASP.NET Core 10 | ASP.NET Core · C# · JWT · EF Core · xUnit | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://sports-ai-api-csharp-production.up.railway.app/swagger) |
 | 📊 **[Employee Sentiment Analysis](https://github.com/vishnu0529/Employee-Sentiment-Analysis)** | NLP pipeline for sentiment classification + flight-risk detection on 2,200+ emails | BERT · VADER · scikit-learn · pandas | [![Repo](https://img.shields.io/badge/-Repo-0ea5e9?style=flat-square)](https://github.com/vishnu0529/Employee-Sentiment-Analysis) |
+| 🏥 **[Federated Healthcare AI](https://github.com/vishnu0529/Federated_Project)** | Privacy-preserving federated learning pipeline predicting hospital readmissions without centralizing patient data | Flower (flwr) · scikit-learn · pandas | [![Repo](https://img.shields.io/badge/-Repo-0ea5e9?style=flat-square)](https://github.com/vishnu0529/Federated_Project) |
 
 ---
 
