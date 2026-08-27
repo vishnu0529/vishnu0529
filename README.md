@@ -16,7 +16,7 @@
 ```python
 vishnu = {
     "role":         "AI Engineer",
-    "education":    "MSc Artificial Intelligence & Robotics — University of Hertfordshire (2026)",
+    "education":    "MSc Artificial Intelligence & Robotics, University of Hertfordshire (2026)",
     "focus":        ["LLM Systems", "RAG Pipelines", "Agentic AI", "NLP"],
     "stack":        ["Python", "FastAPI", "LangChain", "LangGraph", "HuggingFace", "PyTorch"],
     "live_systems": 2,      # deployed on Railway & Render right now
@@ -32,7 +32,7 @@ vishnu = {
 |---|---|---|---|
 | 🤖 **[AI Resume Matcher](https://github.com/vishnu0529/ai-resume-matcher)** | 4-step agentic LLM pipeline: skill extraction → gap analysis → content generation → strategy | Gemini 2.5 Flash · FastAPI · Streamlit · Railway | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://ai-resume-matcher-production-87f6.up.railway.app/docs) |
 | 🔍 **[AI Job Finder Bot](https://github.com/vishnu0529/ai-job-finder-bot)** | Multi-board job search with AI scoring, cover letter generation, and application tracker | Gemini · Streamlit · Reed API · SQLite | [![Repo](https://img.shields.io/badge/-Repo-0ea5e9?style=flat-square)](https://github.com/vishnu0529/ai-job-finder-bot) |
-| 🏆 **[Sports AI API](https://github.com/vishnu0529/sports-ai-api-csharp)** | Sports prediction REST API — built in Python/FastAPI then rebuilt in C#/ASP.NET Core 10 | ASP.NET Core · C# · JWT · EF Core · xUnit | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://sports-ai-api-csharp-production.up.railway.app/swagger) |
+| 🏆 **[Sports AI API](https://github.com/vishnu0529/sports-ai-api-csharp)** | Sports prediction REST API: built in Python/FastAPI then rebuilt in C#/ASP.NET Core 10 | ASP.NET Core · C# · JWT · EF Core · xUnit | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://sports-ai-api-csharp-production.up.railway.app/swagger) |
 | 📊 **[Employee Sentiment Analysis](https://github.com/vishnu0529/Employee-Sentiment-Analysis)** | NLP pipeline for sentiment classification + flight-risk detection on 2,200+ emails | BERT · VADER · scikit-learn · pandas | [![Repo](https://img.shields.io/badge/-Repo-0ea5e9?style=flat-square)](https://github.com/vishnu0529/Employee-Sentiment-Analysis) |
 
 ---
