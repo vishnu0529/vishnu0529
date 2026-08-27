@@ -7,6 +7,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-vishnu0529.github.io-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vishnu0529.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vishnu-kanth-suryanarayan-a68851167)
 [![Email](https://img.shields.io/badge/Email-vishnuks0529@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishnuks0529@gmail.com)
+[![Resume](https://img.shields.io/badge/📄_Paper_Trail-EA4335?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/vishnu0529/vishnu0529/raw/main/Vishnu_AI_Engineer_CV_1.pdf)
 
 </div>
 
