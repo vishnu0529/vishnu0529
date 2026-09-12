@@ -15,11 +15,11 @@
 
 ```python
 vishnu = {
-    "role":         "AI Engineer",
+    "role":         "Independent AI Consultant / AI Engineer",
     "education":    "MSc Artificial Intelligence & Robotics, University of Hertfordshire (2026)",
     "focus":        ["LLM Systems", "RAG Pipelines", "Agentic AI", "NLP"],
-    "stack":        ["Python", "FastAPI", "LangChain", "LangGraph", "HuggingFace", "PyTorch"],
-    "live_systems": 2,      # deployed on Railway & Render right now
+    "stack":        ["Python", "FastAPI", "LangChain", "LangGraph", "Qdrant", "HuggingFace", "PyTorch"],
+    "live_systems": 3,      # deployed on Render & Streamlit Community Cloud right now
     "available":    "Full-time from October 2026 · London & Remote",
 }
 ```
@@ -30,11 +30,14 @@ vishnu = {
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
-| 🤖 **[AI Resume Matcher](https://github.com/vishnu0529/ai-resume-matcher)** | 4-step agentic LLM pipeline: skill extraction → gap analysis → content generation → strategy | Gemini 2.5 Flash · FastAPI · Streamlit · Railway | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://ai-resume-matcher-production-87f6.up.railway.app/docs) |
-| 🔍 **[AI Job Finder Bot](https://github.com/vishnu0529/ai-job-finder-bot)** | Multi-board job search with AI scoring, cover letter generation, and application tracker | Gemini · Streamlit · Reed API · SQLite | [![Repo](https://img.shields.io/badge/-Repo-0ea5e9?style=flat-square)](https://github.com/vishnu0529/ai-job-finder-bot) |
-| 🏆 **[Sports AI API](https://github.com/vishnu0529/sports-ai-api-csharp)** | Sports prediction REST API: built in Python/FastAPI then rebuilt in C#/ASP.NET Core 10 | ASP.NET Core · C# · JWT · EF Core · xUnit | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://sports-ai-api-csharp-production.up.railway.app/swagger) |
+| 🧠 **[Enterprise RAG Assistant](https://github.com/vishnu0529/enterprise-rag-assistant)** | Two-agent LangGraph system — a Retrieval Strategist plans searches (incl. multi-hop decomposition), a Drafting Agent writes the answer, a critique node sends it back to re-plan if ungrounded. Cross-session memory via Qdrant. | LangGraph · Qdrant · FastAPI · Streamlit | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://enterprise-rag-assistant-bpoiuckv3cxhsbkuauy8ve.streamlit.app/) |
+| 🔍 **[AI Job Finder Bot](https://github.com/vishnu0529/ai-job-finder-bot)** | Multi-board job search with a LangGraph agent: scores each result, drafts a cover letter, critiques its own draft and re-writes if it's not grounded, remembers past applications across sessions | LangGraph · Gemini · Streamlit · SQLite | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://ai-job-finder-bot-bnqepy7obmunbihrkyxv4f.streamlit.app/) |
+| 🤖 **[AI Resume Matcher](https://github.com/vishnu0529/ai-resume-matcher)** | 4-step agentic LLM pipeline that analyses a CV against any job description: skill extraction → gap analysis → tailored content generation → application strategy | Gemini 3.6 Flash + Claude · FastAPI · Render | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://ai-resume-matcher-xw2i.onrender.com/docs) |
+| 🏆 **[Sports AI Prediction API](https://github.com/vishnu0529/sports-ai-api)** | Sports match prediction API using OpenAI, natural-language queries | FastAPI · OpenAI · Render | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://sports-ai-api-euyu.onrender.com/docs) |
 | 📊 **[Employee Sentiment Analysis](https://github.com/vishnu0529/Employee-Sentiment-Analysis)** | NLP pipeline for sentiment classification + flight-risk detection on 2,200+ emails | BERT · VADER · scikit-learn · pandas | [![Repo](https://img.shields.io/badge/-Repo-0ea5e9?style=flat-square)](https://github.com/vishnu0529/Employee-Sentiment-Analysis) |
 | 🏥 **[Federated Healthcare AI](https://github.com/vishnu0529/Federated_Project)** | Privacy-preserving federated learning pipeline predicting hospital readmissions without centralizing patient data | Flower (flwr) · scikit-learn · pandas | [![Repo](https://img.shields.io/badge/-Repo-0ea5e9?style=flat-square)](https://github.com/vishnu0529/Federated_Project) |
+
+*Note: the Sports AI API's C# rewrite ([sports-ai-api-csharp](https://github.com/vishnu0529/sports-ai-api-csharp)) was previously hosted on Railway; that deployment is currently down (Railway trial ended) — repo/code is unaffected.*
 
 ---
 
@@ -43,10 +46,12 @@ vishnu = {
 **LLM & AI**
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
+![Anthropic Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
 **Backend & APIs**
 
@@ -54,12 +59,14 @@ vishnu = {
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![ASP.NET](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
 
 **MLOps & DevOps**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 ---
 
