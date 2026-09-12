@@ -41,6 +41,12 @@ vishnu = {
 
 ---
 
+## 📜 Certifications
+
+- **Certificate of Attendance — From Zero to Hero: Federated AI in Healthcare Systems** · St John's College, Cambridge (24–25 Aug 2026) · hosted by Cambridge Image Analysis (DAMTP, University of Cambridge), PharosAI & Core AI · built on the Flower (flwr) framework used in [Federated Healthcare AI](https://github.com/vishnu0529/Federated_Project) below → [Verify credential](https://verified.sertifier.com/en/verify/99023372901934/)
+
+---
+
 ## 🛠 Tech Stack
 
 **LLM & Agentic AI**
