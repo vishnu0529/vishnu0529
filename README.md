@@ -30,20 +30,20 @@ vishnu = {
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
-| 🧠 **[Enterprise RAG Assistant](https://github.com/vishnu0529/enterprise-rag-assistant)** | Two-agent LangGraph system — a Retrieval Strategist plans searches (incl. multi-hop decomposition), a Drafting Agent writes the answer, a critique node sends it back to re-plan if ungrounded. Cross-session memory via Qdrant. | LangGraph · Qdrant · FastAPI · Streamlit | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://enterprise-rag-assistant-bpoiuckv3cxhsbkuauy8ve.streamlit.app/) |
+| 🧠 **[Enterprise RAG Assistant](https://github.com/vishnu0529/enterprise-rag-assistant)** | Two-agent LangGraph system: a Retrieval Strategist plans searches (incl. multi-hop decomposition), a Drafting Agent writes the answer, a critique node sends it back to re-plan if ungrounded. Cross-session memory via Qdrant. | LangGraph · Qdrant · FastAPI · Streamlit | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://enterprise-rag-assistant-bpoiuckv3cxhsbkuauy8ve.streamlit.app/) |
 | 🔍 **[AI Job Finder Bot](https://github.com/vishnu0529/ai-job-finder-bot)** | Multi-board job search with a LangGraph agent: scores each result, drafts a cover letter, critiques its own draft and re-writes if it's not grounded, remembers past applications across sessions | LangGraph · Gemini · Streamlit · SQLite | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://ai-job-finder-bot-bnqepy7obmunbihrkyxv4f.streamlit.app/) |
 | 🤖 **[AI Resume Matcher](https://github.com/vishnu0529/ai-resume-matcher)** | 4-step agentic LLM pipeline that analyses a CV against any job description: skill extraction → gap analysis → tailored content generation → application strategy | Gemini 3.6 Flash + Claude · FastAPI · Render | [![Live Demo](https://img.shields.io/badge/-Live_Demo-34d399?style=flat-square)](https://ai-resume-matcher-afsgzlmmklspynzeebp9w4.streamlit.app) [![API](https://img.shields.io/badge/-API_Docs-0ea5e9?style=flat-square)](https://ai-resume-matcher-xw2i.onrender.com/docs) |
 | 🏆 **[Sports AI Prediction API](https://github.com/vishnu0529/sports-ai-api)** | Sports match prediction API using OpenAI, natural-language queries | FastAPI · OpenAI · Render | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://sports-ai-api-euyu.onrender.com/docs) |
 | 📊 **[Employee Sentiment Analysis](https://github.com/vishnu0529/Employee-Sentiment-Analysis)** | NLP pipeline for sentiment classification + flight-risk detection on 2,200+ emails | BERT · VADER · scikit-learn · pandas | [![Repo](https://img.shields.io/badge/-Repo-0ea5e9?style=flat-square)](https://github.com/vishnu0529/Employee-Sentiment-Analysis) |
 | 🏥 **[Federated Healthcare AI](https://github.com/vishnu0529/Federated_Project)** | Privacy-preserving federated learning pipeline predicting hospital readmissions without centralizing patient data | Flower (flwr) · scikit-learn · pandas | [![Repo](https://img.shields.io/badge/-Repo-0ea5e9?style=flat-square)](https://github.com/vishnu0529/Federated_Project) |
 
-*Note: the Sports AI API's C# rewrite ([sports-ai-api-csharp](https://github.com/vishnu0529/sports-ai-api-csharp)) was previously hosted on Railway; that deployment is currently down (Railway trial ended) — repo/code is unaffected.*
+*Note: the Sports AI API's C# rewrite ([sports-ai-api-csharp](https://github.com/vishnu0529/sports-ai-api-csharp)) was previously hosted on Railway; that deployment is currently down (Railway trial ended), repo/code is unaffected.*
 
 ---
 
 ## 📜 Certifications
 
-- **Certificate of Attendance — From Zero to Hero: Federated AI in Healthcare Systems** · St John's College, Cambridge (24–25 Aug 2026) · hosted by Cambridge Image Analysis (DAMTP, University of Cambridge), PharosAI & Core AI · built on the Flower (flwr) framework used in [Federated Healthcare AI](https://github.com/vishnu0529/Federated_Project) below → [Verify credential](https://verified.sertifier.com/en/verify/99023372901934/)
+- **Certificate of Attendance, From Zero to Hero: Federated AI in Healthcare Systems** · St John's College, Cambridge (24–25 Aug 2026) · hosted by Cambridge Image Analysis (DAMTP, University of Cambridge), PharosAI & Core AI · built on the Flower (flwr) framework used in [Federated Healthcare AI](https://github.com/vishnu0529/Federated_Project) below · [Verify credential](https://verified.sertifier.com/en/verify/99023372901934/)
 
 ---
 
