@@ -2,7 +2,7 @@
 
 # Hi, I'm Vishnu 👋
 
-### Taking AI agents from pilot to production — evals, cost control, data boundaries
+### Taking AI agents from pilot to production: evals, cost control, data boundaries
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-vishnu0529.github.io-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vishnu0529.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vishnu-kanth-suryanarayan-a68851167)
@@ -13,12 +13,12 @@
 
 ---
 
-I work on the part of AI agents that decides whether they survive contact with a real business: evaluation, cost per task, data boundaries, escalation paths, and who owns the thing once it ships. Most agent pilots don't fail on model quality — they fail because nobody set an acceptance threshold, nobody measured cost per task, nobody defined what happens when the agent is wrong.
+I work on the part of AI agents that decides whether they survive contact with a real business: evaluation, cost per task, data boundaries, escalation paths, and who owns the thing once it ships. Most agent pilots don't fail on model quality. They fail because nobody set an acceptance threshold, nobody measured cost per task, nobody defined what happens when the agent is wrong.
 
 **What I'm working on**
 - Agent orchestration on LangGraph: typed state, a critique/re-plan cycle, durable Postgres checkpointing that survives a killed process, and a genuine `interrupt()` human-in-the-loop gate on commercially sensitive actions
 - Evaluation as a CI merge gate, not a notebook: golden sets with adversarial traps, acceptance thresholds, CI that fails the PR on regression
-- Tracing, cost-per-task, and config/prompt versioning — every answer traceable to the exact commit that produced it
+- Tracing, cost-per-task, and config/prompt versioning, so every answer is traceable to the exact commit that produced it
 
 **What I don't claim**
 - AutoGen and CrewAI: read, not shipped
@@ -34,8 +34,8 @@ Open to AI engineering roles in London, and to short production-readiness review
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
-| 🧠 **[Proposal Response Assistant](https://github.com/vishnu0529/enterprise-rag-assistant)** | Multi-agent LangGraph system for professional-services bid teams: a Retrieval Strategist and Drafting Agent share graph state; citation enforcement and escalation on ungrounded answers; a real `interrupt()` pause on commercially-sensitive answers; durable Postgres checkpointing verified with a live two-process, real-`SIGKILL` demo; OpenTelemetry tracing per node; a 50-item golden set with 12 adversarial traps in a CI merge gate. Scored against a public [15-point production-readiness scorecard](https://claude.ai/code/artifact/5c6af602-27b4-4bc1-af7b-c2cb501da89c) (9 demonstrated, 5 partial, 1 open — self-assessed, not 15/15). | LangGraph · Postgres · Qdrant · OpenTelemetry · FastAPI | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://enterprise-rag-assistant-iyq9apbv2jeyby3xxqx3ce.streamlit.app/) |
-| 🟦 **[RFP Agent (TS)](https://github.com/vishnu0529/rfp-agent-ts)** | The TypeScript/Node counterpart to the Proposal Response Assistant — same durable Postgres checkpointing and genuine `interrupt()` human-in-the-loop gate, proven in LangGraph.js rather than LangGraph Python, with the same real kill-and-resume demo (SIGKILL a live process, resume from checkpoint in a second process). Proves the pattern isn't a Python-specific trick. | LangGraph.js · TypeScript · Node · Postgres | [![CI](https://img.shields.io/badge/-CI_passing-34d399?style=flat-square)](https://github.com/vishnu0529/rfp-agent-ts/actions) |
+| 🧠 **[Proposal Response Assistant](https://github.com/vishnu0529/enterprise-rag-assistant)** | Multi-agent LangGraph system for professional-services bid teams: a Retrieval Strategist and Drafting Agent share graph state; citation enforcement and escalation on ungrounded answers; a real `interrupt()` pause on commercially-sensitive answers; durable Postgres checkpointing verified with a live two-process, real-`SIGKILL` demo; OpenTelemetry tracing per node; a 50-item golden set with 12 adversarial traps in a CI merge gate. Scored against a public [15-point production-readiness scorecard](https://claude.ai/code/artifact/5c6af602-27b4-4bc1-af7b-c2cb501da89c) (9 demonstrated, 5 partial, 1 open; self-assessed, not 15/15). | LangGraph · Postgres · Qdrant · OpenTelemetry · FastAPI | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://enterprise-rag-assistant-iyq9apbv2jeyby3xxqx3ce.streamlit.app/) |
+| 🟦 **[RFP Agent (TS)](https://github.com/vishnu0529/rfp-agent-ts)** | The TypeScript/Node counterpart to the Proposal Response Assistant, with the same durable Postgres checkpointing and genuine `interrupt()` human-in-the-loop gate, proven in LangGraph.js rather than LangGraph Python, with the same real kill-and-resume demo (SIGKILL a live process, resume from checkpoint in a second process). Proves the pattern isn't a Python-specific trick. | LangGraph.js · TypeScript · Node · Postgres | [![CI](https://img.shields.io/badge/-CI_passing-34d399?style=flat-square)](https://github.com/vishnu0529/rfp-agent-ts/actions) |
 | 🔍 **[AI Job Finder Bot](https://github.com/vishnu0529/ai-job-finder-bot)** | Multi-board job search with a LangGraph agent: scores each result, drafts a cover letter, critiques its own draft and re-writes if it's not grounded, remembers past applications across sessions | LangGraph · Gemini · Streamlit · SQLite | [![Live](https://img.shields.io/badge/-Live-34d399?style=flat-square)](https://ai-job-finder-bot-bnqepy7obmunbihrkyxv4f.streamlit.app/) |
 | 🤖 **[AI Resume Matcher](https://github.com/vishnu0529/ai-resume-matcher)** | 4-step agentic LLM pipeline that analyses a CV against any job description: skill extraction → gap analysis → tailored content generation → application strategy | Gemini 3.6 Flash + Claude · FastAPI · Render | [![Live Demo](https://img.shields.io/badge/-Live_Demo-34d399?style=flat-square)](https://ai-resume-matcher-afsgzlmmklspynzeebp9w4.streamlit.app) [![API](https://img.shields.io/badge/-API_Docs-0ea5e9?style=flat-square)](https://ai-resume-matcher-xw2i.onrender.com/docs) |
 
